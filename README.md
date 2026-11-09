@@ -4,6 +4,21 @@
 
 ### Group Project \| Group 9 \| Data Ecosystems and Governance in Organizations-2526_T3
 
+> **About this copy:** This was a team project of four students at Nova SBE. This
+> repository is a copy of the original team repository,
+> [margarida-passos-cunha/dego-project-team9](https://github.com/margarida-passos-cunha/dego-project-team9),
+> with the complete commit history, so every team member's commits keep their authorship.
+> The dataset is a synthetic course dataset; it contains no real applicants.
+
+### My contribution (Noah Kreyenkamp, Data Engineer)
+
+- Set up the repository structure and project conventions.
+- Wrote the data loader (`src/data_loader.py`) that flattens the nested raw JSON applications into a pandas DataFrame.
+- Built the cleaning pipeline (`src/data_cleaning.py`): standardised gender encoding and date formats, handled duplicates and invalid values, and exported the cleaned dataset.
+- Wrote the data quality assessment (`notebooks/01-data-quality.ipynb`) covering completeness, consistency, validity and accuracy, including the visualisations in `reports/`.
+
+The bias and fairness analysis (Notebook 02), the privacy and GDPR assessment (Notebook 03) and the presentation were done by my teammates (see the table below).
+
 ------------------------------------------------------------------------
 
 ## Project Description
@@ -40,12 +55,12 @@ Nine governance recommendations are proposed across three domains.
 
 ## Team Members & Individual Contributions
 
-| Member, ID | Role | Contributions |
+| Member | Role | Contributions |
 |-------------------|-------------------|----------------------------------|
-| **[Noah Kreyenkamp, 71459]** | Data Engineer | Data loading, cleaning pipeline, Notebook 01 |
-| **[Finley Marynek, 64723]** | Data Scientist | Bias analysis, fairness metrics, Notebook 02 |
-| **[Margarida Passos da Cunha, 71119]** | Governance Officer | GDPR mapping, privacy techniques, Notebook 03 |
-| **[Nina Berenice Wecera, 72603]** | Product Lead | Presentation, coordination, README, project documentation |
+| **[Noah Kreyenkamp]** | Data Engineer | Data loading, cleaning pipeline, Notebook 01 |
+| **[Finley Marynek]** | Data Scientist | Bias analysis, fairness metrics, Notebook 02 |
+| **[Margarida Passos da Cunha]** | Governance Officer | GDPR mapping, privacy techniques, Notebook 03 |
+| **[Nina Berenice Wecera]** | Product Lead | Presentation, coordination, README, project documentation |
 
 *All members contributed to the Git repository. Commit history available for verification.*
 
